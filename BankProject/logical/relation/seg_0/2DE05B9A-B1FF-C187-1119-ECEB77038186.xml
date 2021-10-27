@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk reg request reg director" directorySegmentName="seg_0" id="2DE05B9A-B1FF-C187-1119-ECEB77038186">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 10:59:29 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<sourcePk>46F5A5EC-EBF7-3E64-F815-3406FAECA057</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9FF7F53-43F7-1781-5861-9641128A60CE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A8FD1561-C356-6CF2-A413-5500C20587D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

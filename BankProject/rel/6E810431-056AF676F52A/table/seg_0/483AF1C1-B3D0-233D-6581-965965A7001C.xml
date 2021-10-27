@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="483AF1C1-B3D0-233D-6581-965965A7001C" name="user">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>3F921C9E-7539-B6D8-4AA8-95054EE80D17</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FC846E6B-3E92-23CC-5C28-3E4063206FA1">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>B6E111B8-7460-0B9F-604F-2E19FA0D3475</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="login" id="8D2E45C6-869E-34AB-97E3-4C2E31A63447">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>353C34F9-D9B9-0930-F77A-16087D6D4F9A</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="9F020343-25AD-2EB0-F97F-A3D6A6F88534">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>75B5AD46-85DA-1B03-0597-6E83B521F497</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_type" id="356DFEF2-43B7-6F53-D019-D0BC4EFD332E">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>3EF478BF-0562-AEE9-3B67-990DE7FD248D</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72C44BC9-F31B-8AFF-AEC5-4B3007B20937" referredColumn="9FF695E3-2953-64D7-0D74-6EFC4D398FD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94A2ADCB-945C-657B-24F0-A62D72B13FB8" name="pk_user">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>76AACEB3-AFB0-7790-4340-7CF53E7C1250</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC846E6B-3E92-23CC-5C28-3E4063206FA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E53B97FF-2D93-A159-6904-9598EB5A7071" name="fk_user_ref_book">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>C14DE419-24AF-BE4E-A9E5-A75ABACB4BBC</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356DFEF2-43B7-6F53-D019-D0BC4EFD332E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk client auth request client" directorySegmentName="seg_0" id="B11EE279-421D-91D6-8739-65FE7154A1A1">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 09:58:29 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<sourcePk>D73BFCCE-353D-545A-2AAD-2512F2F0E4DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>858ACAC4-CF90-E1AB-426E-0105EAA9897F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E09EA064-6F8F-E61B-BB4B-E7731E974A97</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

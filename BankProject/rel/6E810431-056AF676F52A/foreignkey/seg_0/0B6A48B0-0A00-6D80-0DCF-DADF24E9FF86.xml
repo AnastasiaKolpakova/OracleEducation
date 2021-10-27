@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0B6A48B0-0A00-6D80-0DCF-DADF24E9FF86" containerWithKeyObject="7A6AA21B-B7CC-E88D-0D76-66A95B926522" localFKIndex="BD87AE7B-0EE2-7F3E-D93F-43A7F4378F2F" name="fk_client_auth_request_client">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>B11EE279-421D-91D6-8739-65FE7154A1A1</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<referredTableLongName>client</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1F636F8B-DB03-B9C0-BA65-F383D66B5765</referredTableID>
+<keyObject>5450D64D-5228-319A-8411-C189CFEC6FC7</keyObject>
+<referredKeyID>5450D64D-5228-319A-8411-C189CFEC6FC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

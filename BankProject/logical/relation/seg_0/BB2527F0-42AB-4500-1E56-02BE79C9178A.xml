@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk ref book ref book type" directorySegmentName="seg_0" id="BB2527F0-42AB-4500-1E56-02BE79C9178A">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 09:53:09 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<sourcePk>7FD6D538-449C-EB80-9F4D-DB075E58C5C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CE8632C-45E0-F6A0-A3C5-AEDC2306E6CA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F5E527C6-D429-6DDF-78A9-15ED471A4DD6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

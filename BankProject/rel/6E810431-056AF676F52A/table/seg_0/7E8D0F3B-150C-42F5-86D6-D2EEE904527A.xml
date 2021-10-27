@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E8D0F3B-150C-42F5-86D6-D2EEE904527A" name="ref_book">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>F5E527C6-D429-6DDF-78A9-15ED471A4DD6</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9FF695E3-2953-64D7-0D74-6EFC4D398FD8">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>3C77B5D2-F793-82F8-9B1C-6ECCCCCA9FF9</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="DA28D9E2-9C80-616F-22D1-400654668C41">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>6F541981-5B85-34C4-7005-A3D10B674A82</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ref_book_type_id" id="9FD06344-54D4-584E-210C-D3F8300BFE84">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>C7842D5D-D8AF-FB02-CF46-89205126B39B</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41AEA6ED-FC1D-5FCD-8202-82B99C193B3C" referredColumn="7C0B23F2-01F6-5733-20C9-D6B38842EF6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="719C93A3-48DD-D649-D761-E3832FC7260E" name="pk_ref_book">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>0F3A82CB-21D7-2B4C-5FD3-76D0A22083CB</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FF695E3-2953-64D7-0D74-6EFC4D398FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6452F700-A373-AC98-696B-AD18349B18FD" name="fk_ref_book_ref_book_type">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>BB2527F0-42AB-4500-1E56-02BE79C9178A</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FD06344-54D4-584E-210C-D3F8300BFE84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

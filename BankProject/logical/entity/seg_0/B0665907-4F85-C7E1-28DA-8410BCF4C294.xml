@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0665907-4F85-C7E1-28DA-8410BCF4C294" name="product">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:09:23 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7A163481-6B98-ACA4-B9AF-01CA382FBE60">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:10:10 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start date" id="72BC5BFC-A54B-C8E2-8AA6-44AA95C84928">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:14:06 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="finish date" id="029B6B6D-A2AE-92B1-C9B6-7CF11DD0E13B">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:14:52 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start invest" id="214DC92D-BCBE-0A2F-0BFE-15CE4473BC42">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:15:06 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="finish invest" id="18FAF332-6E97-BDC2-D921-F35186A36B2A">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:18:21 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="percent" id="7DB8FD6B-6CA3-15E1-44EB-02965D3B4982">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:21:34 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="percent summa" id="7E33D563-B20A-E3F0-C077-1A56DA4FE597">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:21:50 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="product type" id="71C4EDA2-FA69-61D1-98C3-6CE7EC3FA0FD">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 09:54:28 UTC</createdTime>
+<generatorID>8CACBD02-30EB-77BA-F7DD-3720530CF968</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<referedAttribute>3C77B5D2-F793-82F8-9B1C-6ECCCCCA9FF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fk_user" id="4A9A0BE3-4F22-DD51-568F-279346D2E0DE">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 09:57:37 UTC</createdTime>
+<generatorID>32609153-2D76-62CF-88DB-CDC4B818B82D</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<referedAttribute>B6E111B8-7460-0B9F-604F-2E19FA0D3475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="client id" id="5759CBE6-F990-8F8B-224F-C8A239E72D14">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 09:15:10 UTC</createdTime>
+<generatorID>A6108B12-62E6-FB68-4DFF-4529BD2FFEAA</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<referedAttribute>551558C3-7743-1857-CC64-51EEF25DD46F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36BD9A1F-16D8-8AD1-F310-2707C367AA57" name="pk_product">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-19 09:10:20 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>7A163481-6B98-ACA4-B9AF-01CA382FBE60</newElementsIDs>
+<usedAttributes>
+<attributeRef>7A163481-6B98-ACA4-B9AF-01CA382FBE60</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

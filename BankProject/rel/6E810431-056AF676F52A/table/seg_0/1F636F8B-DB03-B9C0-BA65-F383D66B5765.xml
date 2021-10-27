@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F636F8B-DB03-B9C0-BA65-F383D66B5765" name="client">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>858ACAC4-CF90-E1AB-426E-0105EAA9897F</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F06CD0AE-72C4-5F06-1A1C-36599D0E0042">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>551558C3-7743-1857-CC64-51EEF25DD46F</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="22092B11-E5C1-9022-E588-B2611FA2D891">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>B3E60911-40B6-42B9-D635-6EB26B83B770</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="4C4745D0-5800-FCC5-62D9-D8CDC2BBC600">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>59ACF4AA-285D-331F-F207-4E1ECD5B9083</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="second_name" id="B9CF0456-28C1-72A3-C614-F2ECED1DA991">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>60CE1F76-2B1D-3F76-71E9-D1946EBF0A25</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="24124674-B1EE-046A-CEF9-7C8241ACB168">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>D2AB31E7-16CA-847A-3018-65EB2FCFBFF1</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passport_number" id="7777D144-B9CC-D69E-4E60-B05048DFD159">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>8E84D6D8-133C-DF6F-C93E-ED76F59C982C</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="57FBF5A8-BCF0-D4FE-3701-3CBB740C7ECC">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>DBEB6DC6-96F9-8665-B019-D7160E7DEA4F</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confirmed_phone" id="43C62B21-8820-7706-9F7D-7036E9C1008F">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:45 UTC</createdTime>
+<generatorID>0F0E19CB-4FF1-30E9-556A-48A7F9AA0713</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="confirmed_email" id="E28A781E-8386-7C48-D151-F8683049A6EA">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>4500A44D-E88E-A1E3-3F18-7E6EC09A69C2</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="9341E576-52AA-8796-E2CA-ED2A7471CB60">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>6229ED61-76C1-8246-0F4E-E52CDEF3851A</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3293C11-5E5A-1042-84DF-6E071DB635F6" referredColumn="FC846E6B-3E92-23CC-5C28-3E4063206FA1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5450D64D-5228-319A-8411-C189CFEC6FC7" name="pk_client">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>D73BFCCE-353D-545A-2AAD-2512F2F0E4DC</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F06CD0AE-72C4-5F06-1A1C-36599D0E0042"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8331849E-1E09-1803-14FC-B05196AB61D9" name="client__IDX">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0470A9E2-7008-8E58-608D-D081FE8BE035</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9341E576-52AA-8796-E2CA-ED2A7471CB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="889C8871-8B65-47CE-8B37-759A9FAF7DDA" name="fk_client_user">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>0470A9E2-7008-8E58-608D-D081FE8BE035</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9341E576-52AA-8796-E2CA-ED2A7471CB60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

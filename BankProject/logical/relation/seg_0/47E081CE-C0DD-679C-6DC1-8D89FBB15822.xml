@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk r chet client" directorySegmentName="seg_0" id="47E081CE-C0DD-679C-6DC1-8D89FBB15822">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-25 09:59:43 UTC</createdTime>
+<ownerDesignName>BankProject</ownerDesignName>
+<engineerTo>
+<item key="6E810431-FF10-0D2B-4CD7-056AF676F52A" value="true"/>
+</engineerTo>
+<sourcePk>D73BFCCE-353D-545A-2AAD-2512F2F0E4DC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>858ACAC4-CF90-E1AB-426E-0105EAA9897F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>50C20275-2B90-6D6F-6A62-23F28E9F23F2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

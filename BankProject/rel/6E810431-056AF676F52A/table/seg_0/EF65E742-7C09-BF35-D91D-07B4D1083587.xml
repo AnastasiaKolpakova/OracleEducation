@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF65E742-7C09-BF35-D91D-07B4D1083587" name="r_chet">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>50C20275-2B90-6D6F-6A62-23F28E9F23F2</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DCBEF468-3049-0287-0EE7-6C89E0D914D0">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>7451E923-70DE-543E-8508-C9D4FC115270</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="create_date" id="1D6300F0-7414-78A3-21CC-79E533D9443B">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>77B4A984-96B5-25F3-A6DE-A67148104620</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="99FF727B-B081-88B0-8849-485DCBD459CE">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>9075B591-2F5F-AE80-38E2-E5D8622B2074</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="B3EBC1B0-6B8A-71A1-9DEF-A90ED66054F5">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>049814F0-C4A1-A22E-DB95-1A52248D7D67</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F933F9-A650-98AB-BDC1-2CB15A1F3D09" referredColumn="F06CD0AE-72C4-5F06-1A1C-36599D0E0042"/>
+</associations>
+</Column>
+<Column name="r_chet_type_id" id="431D61B5-7605-9003-38DE-4BAD87520852">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>A9D33399-71FD-67BC-07F0-E4E3B21BB316</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACCCEC5A-D769-6AE5-2AEF-D978370A6CA3" referredColumn="9FF695E3-2953-64D7-0D74-6EFC4D398FD8"/>
+</associations>
+</Column>
+<Column name="product_type_id" id="6115BF43-B63C-5FB6-DC0F-5BE2792ADC3A">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>99DB45D4-0FB2-2ACA-BC5C-9AC04241E307</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7FA0DF3-5751-746C-F1CD-8317FC84E7DE" referredColumn="9FF695E3-2953-64D7-0D74-6EFC4D398FD8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0504F7F7-ABF1-9A71-905F-430EA4F4561F" name="pk_r_chet">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>6F2357F2-C4FF-9308-21FB-ED0A80580DA3</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCBEF468-3049-0287-0EE7-6C89E0D914D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFDD6B95-4497-0E6F-FD27-EAF0BA72DCE6" name="fk_r_chet_client">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>47E081CE-C0DD-679C-6DC1-8D89FBB15822</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3EBC1B0-6B8A-71A1-9DEF-A90ED66054F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E665EAE2-F115-02C5-60F4-AA64C82628F5" name="fk_r_chet_ref_book">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>FED7AEC8-B800-A042-C3AB-ED95E989112B</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="431D61B5-7605-9003-38DE-4BAD87520852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0F4D8F4-4989-A9CD-C932-26E6B87AF566" name="fk_r_chet_ref_book_v2">
+<createdBy>AKolpakova</createdBy>
+<createdTime>2021-10-27 06:48:46 UTC</createdTime>
+<generatorID>71FFA2F9-19CC-0919-5F6D-BD425D01838A</generatorID>
+<ownerDesignName>BankProject</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6115BF43-B63C-5FB6-DC0F-5BE2792ADC3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
